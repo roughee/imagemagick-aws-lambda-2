@@ -20,7 +20,7 @@ CONFIGURE = PKG_CONFIG_PATH=$(CACHE_DIR)/lib/pkgconfig \
 		--disable-shared \
 		--enable-static \
 		--prefix=$(CACHE_DIR) \
-		--build=aarch64-unknown-linux-gnu
+		--build=x86_64-unknown-linux-gnu
 ## build architecture can be https://stackoverflow.com/a/68025766
 
 ## libjpg
